@@ -15,7 +15,6 @@
 <body>
 	<h1>@yield('page_title')</h1>
 
-	<img src='images/hi.png' alt='My logo'>
 	@yield('content')
 
 </body>

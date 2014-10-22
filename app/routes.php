@@ -12,11 +12,11 @@
 */
 
 Route::get('/random_user', function() {
-	return 'This is for the random user generator';
+	return View::make('random_user');
 });
 
 Route::get('/lorem_ipsum', function() {
-	return 'This is for the Lorem Ipsum Generator';
+	return View::make('lorem_ipsum');
 });
 
 Route::get('/', function()
