@@ -10,6 +10,6 @@ This site fulfills the requirements of project 3 for CSCI E-15. It will generate
 No login required
 
 ##Outside code
-Lorem Ipsum Generator Package: https://github.com/samuelwilliams/LoremIpsum/tree/master
-Random User Generator Package: https://github.com/fzaninotto/Faker/tree/master
+Lorem Ipsum Generator Package: https://github.com/samuelwilliams/LoremIpsum/tree/master  
+Random User Generator Package: https://github.com/fzaninotto/Faker/tree/master  
 Laravel Framework: https://github.com/laravel/laravel
