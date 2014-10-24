@@ -1,5 +1,9 @@
 @extends('_master')
 
+@section('link_to_home')
+	<a href="/">Home...</a><br>
+@stop
+
 @section('page_title')
 	Welcome to the Random User Generator!
 @stop
