@@ -10,7 +10,7 @@
 
 @section('content')
 	How many paragraphs of text would you like?
-
+	<br><br>
 	<form method="GET" accept-charset="UTF-8">
 		<label for="num_paragraphs">Number of Paragraphs</label>
 		<input name="num_paragraphs" type="number" id="num_paragraphs" min="1" max="99">
