@@ -17,5 +17,7 @@
 
 	@yield('content')
 
+	@yield('app_output')
+
 </body>
 </html>
