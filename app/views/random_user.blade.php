@@ -13,6 +13,7 @@
 		<br>
 		<input type="checkbox" name="address" value="address">Add address?<br>
 		<input type="checkbox" name="profile" value="profile">Add profile?<br>
+		<br>
 		<input type="submit" value="Generate Users">
 		<br><br>
 	</form>
@@ -21,11 +22,14 @@
 
 @section('app_output')
 	<?php
-		$faker = Faker\Factory::create();
-		for ($i=0; $i<5; $i++) {
+		for ($i=0; $i<$num_users; $i++) {
 			echo $faker->name ."<br>";
-			echo $faker->address. "<br>";
-			echo $faker->text. "<br>";
+			if($address){
+				echo $faker->address. "<br>";
+			}
+			if($profile){
+				echo $faker->text. "<br>";
+			}
 			echo "<br><br>";
 		}
 	?>
