@@ -23,7 +23,7 @@
 @section('app_output')
 	<?php
 		for ($i=0; $i<$num_users; $i++) {
-			echo $faker->name ."<br>";
+			echo "<B>". $faker->name ."</b>" ."<br>";
 			if($address){
 				echo $faker->address. "<br>";
 			}
